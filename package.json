@@ -1,0 +1,23 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "graphql-yoga": "^1.17.4",
+    "rss-parser": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  }
+}
